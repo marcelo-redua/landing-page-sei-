@@ -63,9 +63,6 @@ section {
     background-color: #D44C1B;
 }
 
-#btn_banner {
-    width: 500px;
-}
 
 .social-media-buttons {
     display: flex;
@@ -99,3 +96,13 @@ section {
 .section-subtitle {
     font-size: 2.1875rem;
 } 
+
+#btn_banner {
+    width: 500px;
+}
+
+@media screen and (max-width: 1170px) {
+        #btn_banner {
+    width: auto;
+};
+}
