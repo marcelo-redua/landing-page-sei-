@@ -63,6 +63,10 @@ section {
     background-color: #D44C1B;
 }
 
+#btn_banner {
+    width: 500px;
+}
+
 .social-media-buttons {
     display: flex;
     gap: 18px;
